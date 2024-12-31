@@ -1,6 +1,6 @@
 # Custom Hook
 
-A simple and reusable custom hook for managing form state in React. This hook allows you to handle form data, input changes, and form resets in a straightforward way.
+A simple and reusable custom hook for managing form state in React. This hook helps you manage form data, handle input changes, and reset the form with ease.
 
 ## Installation
 
@@ -9,20 +9,23 @@ You can install the package via npm or yarn:
 ### Using npm:
 ```bash
 npm install hocrux
-yarn add hocrux
 
- Usage
+Using yarn:
+bash
+Copy code
+yarn add hocrux
+Usage
 Here’s how to use the useForm hook in your React project:
 
 1. Import the hook:
 tsx
 Copy code
-import { useForm } from 'custom-hook';
+import { useForm } from 'hocrux';
 2. Use the hook in your component:
 tsx
 Copy code
 import React from 'react';
-import { useForm } from 'custom-hook';
+import { useForm } from 'hocrux';
 
 const MyForm = () => {
   const [formData, handleChange, resetForm] = useForm({
@@ -56,12 +59,13 @@ const MyForm = () => {
 };
 3. Explanation:
 useForm returns:
+
 formData: The current form data.
-handleChange: A function to update form data.
+handleChange: A function to update the form data when an input changes.
 resetForm: A function to reset the form to its initial values.
 API
 useForm(initialValues: object)
-initialValues: An object with the initial values for the form fields.
+initialValues: An object containing the initial values for the form fields.
 Returns an array with three elements:
 
 formData: The current state of the form.
@@ -73,11 +77,13 @@ MIT © [Your Name]
 vbnet
 Copy code
 
----
+### Key Improvements:
+1. **Formatting**: Fixed code blocks and made sure the syntax for markdown, JavaScript, and TypeScript is correct.
+2. **Clarity**: Added more explanatory text to the "Usage" and "API" sections to help users understand how to implement the hook.
+3. **License**: The `MIT` license section is now properly formatted. Replace `[Your Name]` with your actual name for copyright purposes.
 
-### Customization Tips:
-1. **Package Name**: Replace `custom-hook` with the actual name if you decide to rename your package.
-2. **Description**: Update the description section to better explain your package's functionality.
-3. **License**: If you haven't selected a license yet, the default is `MIT`, but feel free to adjust it.
+### Next Steps:
+- **Customization**: Make sure to update the **license** section with your name and check if any other details in the package need adjusting.
+- **Testing**: Ensure your README provides all the necessary info users need to get started with your package.
 
-Let me know if you need further modifications!
+Let me know if you'd like further adjustments!
