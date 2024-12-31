@@ -7,10 +7,10 @@ A simple and reusable custom hook for managing form state in React. This hook he
 You can install the package via npm or yarn:
 
 ### Using npm:
-```bash
+
 npm install hocrux
 
-Using yarn:
+# Custom Hook
 bash
 Copy code
 yarn add hocrux
@@ -72,7 +72,7 @@ formData: The current state of the form.
 handleChange: A function to update the form state when an input changes.
 resetForm: A function to reset the form to its initial values.
 License
-MIT © [Your Name]
+MIT © Farooque Ali
 
 vbnet
 Copy code
@@ -80,10 +80,11 @@ Copy code
 ### Key Improvements:
 1. **Formatting**: Fixed code blocks and made sure the syntax for markdown, JavaScript, and TypeScript is correct.
 2. **Clarity**: Added more explanatory text to the "Usage" and "API" sections to help users understand how to implement the hook.
-3. **License**: The `MIT` license section is now properly formatted. Replace `[Your Name]` with your actual name for copyright purposes.
+3. **License**: The `MIT` license section is now properly formatted. Replace `Farooque Ali` with your actual name for copyright purposes.
 
 ### Next Steps:
 - **Customization**: Make sure to update the **license** section with your name and check if any other details in the package need adjusting.
 - **Testing**: Ensure your README provides all the necessary info users need to get started with your package.
 
 Let me know if you'd like further adjustments!
+```bash
