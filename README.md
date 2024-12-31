@@ -11,8 +11,7 @@ You can install the package via npm or yarn:
 npm install hocrux
 
 # Custom Hook
-bash
-Copy code
+
 yarn add hocrux
 Usage
 Here’s how to use the useForm hook in your React project:
